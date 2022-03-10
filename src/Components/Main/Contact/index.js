@@ -14,7 +14,7 @@ const Contact = () => {
           <IoMdPaperPlane />
         </ContactIcon>
         <ContactMessage>
-          Whether you have a idea or Want to work together, <br /> fell free to
+          Whether you have a idea or Want to work together, <br /> feel free to
           drop me an email!
         </ContactMessage>
         <ContactLink>Say Hello</ContactLink>

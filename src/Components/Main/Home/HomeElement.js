@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Home from ".";
 import bgimg from "../../../asset/working-background.jpg";
 import lndimg from "../../../asset/bglandscape.png";
 import { COLOR, TRANSITION, WIDTH } from "../../../constant";

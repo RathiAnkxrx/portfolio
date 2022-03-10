@@ -58,6 +58,9 @@ h2{
         font-size:1.8rem;
     }
 }
+.active{
+    color:${COLOR.cherry};
+}
 `;
 
 export default GlobalStyle;

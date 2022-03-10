@@ -40,7 +40,7 @@ export const HeaderName = styled.div`
   font-weight: 500;
 `;
 
-export const HeaderNav = styled.ul`
+export const HeaderNav = styled.div`
   display: flex;
   gap: 2.4rem;
   @media (max-width: 600px) {
@@ -62,8 +62,6 @@ export const HeaderNav = styled.ul`
       props["data-open"] ? "translateY(0)" : "translateY(-200%)"};
   }
 `;
-
-export const NavItem = styled.li``;
 
 export const NavLinks = styled.a`
   text-transform: uppercase;

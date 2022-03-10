@@ -24,10 +24,10 @@ const Footer = () => {
           <IoMdRocket />
         </ScrollToTop>
         <SocialMediaLinks>
-          <AccountLink html="https://github.com/RathiAnkxrx">
+          <AccountLink href="https://github.com/RathiAnkxrx">
             <FaGithub style={style} />
           </AccountLink>
-          <AccountLink html="https://app.netlify.com/teams/rathiankxrx/overview">
+          <AccountLink href="https://app.netlify.com/teams/rathiankxrx/overview">
             <SiNetlify style={style} />
           </AccountLink>
           <AccountLink>

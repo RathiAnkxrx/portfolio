@@ -18,7 +18,6 @@ const Header = () => {
   const isMobile = width <= 600;
   const isScrolled = height >= 60;
   const location = window.location.hash.replace("#", "");
-  console.log(location);
   return (
     <HeaderConatiner data-scroll={isScrolled} data-open={isOpen}>
       <HeaderWrapper>
@@ -30,10 +29,7 @@ const Header = () => {
             data-aos="fade-down"
             data-aos-duration="600"
             href="#home"
-            style={{
-              color:
-                location === "home" || location === "" ? "#e31b6d" : "#fff",
-            }}
+            className="navbar home active"
           >
             Home
           </NavLinks>
@@ -43,7 +39,7 @@ const Header = () => {
             data-aos-duration="600"
             data-aos-delay="150"
             href="#about"
-            style={{ color: location === "about" ? "#e31b6d" : "#fff" }}
+            className="navbar about"
           >
             About
           </NavLinks>
@@ -52,8 +48,8 @@ const Header = () => {
             data-aos="fade-down"
             data-aos-duration="600"
             data-aos-delay="300"
+            className="navbar portfolio"
             href="#portfolio"
-            style={{ color: location === "portfolio" ? "#e31b6d" : "#fff" }}
           >
             Portfolio
           </NavLinks>
@@ -63,7 +59,7 @@ const Header = () => {
             data-aos-duration="600"
             data-aos-delay="450"
             href="#contact"
-            style={{ color: location === "contact" ? "#e31b6d" : "#fff" }}
+            className="navbar contact"
           >
             Contact
           </NavLinks>
