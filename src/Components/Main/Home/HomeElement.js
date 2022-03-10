@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Home from ".";
 import bgimg from "../../../asset/working-background.jpg";
+import lndimg from "../../../asset/bglandscape.png";
 import { COLOR, TRANSITION, WIDTH } from "../../../constant";
 export const HomeContainer = styled.section`
   height: max(105vh, 50rem);
@@ -14,6 +15,14 @@ export const HomeContainer = styled.section`
   background-size: cover;
   background-position: center;
   padding: 0 2.4rem;
+  @media (max-width: 600px) {
+    background-image: linear-gradient(
+        to right,
+        ${COLOR.blueTrans},
+        ${COLOR.blueTrans}
+      ),
+      url(${lndimg});
+  }
 `;
 
 export const HomeWrapper = styled.div`
