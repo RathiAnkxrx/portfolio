@@ -73,3 +73,7 @@ const TechnicalSkills = () => {
 };
 
 export default TechnicalSkills;
+
+instahire;
+naukri.com;
+linkdin;
