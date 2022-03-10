@@ -91,7 +91,7 @@ const About = () => {
                 experiences.
                 <br />
                 <br />
-                When I'm not on computer, I enjoy palying badminton,
+                When I'm not on computer, I enjoy playing badminton,
                 <NavigateLink
                   href="https://www.instagram.com/ankurrathi15/?hl=en"
                   style={{ textDecoration: "none" }}
