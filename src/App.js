@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import Projects from "./Components/Main/Projects";
 import Contact from "./Components/Main/Contact";
 import Footer from "./Components/Footer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   useEffect(() => {
@@ -33,10 +33,37 @@ function App() {
 
   Aos.init({});
 
+  var fullname = "John Doe";
+  var obj = {
+    fullname: "Colin Ihrig",
+    prop: {
+      fullname: "Aurelio De Rosa",
+      getFullName: function () {
+        return this.fullname;
+      },
+    },
+    getMyName: function () {
+      return this.fullname;
+    },
+    getFirstName: () => {
+      console.log(typeof this, this);
+      // return this.fullname.split(" ")[0];
+    },
+    // getLastName: (function () {
+    //   return this.fullname.split(" ")[1];
+    // })(),
+  };
+
+  // console.log(obj.prop.getFullName(), "Aurelio");
+  // console.log(obj.getMyName(), "Colin Ihring");
+  // console.log(obj.getFirstName(), " Colin", "checking this");
+  // console.log(obj.getLastName, "John Doe");\
+
   return (
     <>
       <GlobalStyle />
       <Header />
+
       <main>
         <Home />
         <About />
