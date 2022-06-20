@@ -31,7 +31,10 @@ const Footer = () => {
             <SiNetlify style={style} />
           </AccountLink>
           <AccountLink>
-            <SiLinkedin style={style} />
+            <SiLinkedin
+              style={style}
+              href="www.linkedin.com/in/ankur-rathi-725b841b4"
+            />
           </AccountLink>
           <AccountLink href="https://www.instagram.com/ankurrathi15/?hl=en">
             <SiInstagram style={style} />
