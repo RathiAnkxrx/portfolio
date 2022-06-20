@@ -17,7 +17,7 @@ const Contact = () => {
           Whether you have a idea or Want to work together, <br /> feel free to
           drop me an email!
         </ContactMessage>
-        <ContactLink href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+        <ContactLink href="mailto:ankurrathi15@gmail.com">
           Say Hello
         </ContactLink>
       </ContactWrapper>
